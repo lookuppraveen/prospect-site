@@ -1,4 +1,4 @@
 RewriteEngine On 
 RewriteCond %{SERVER_PORT} 80
-RewriteCond %{HTTP_HOST} ^(www\.)?bricpoint\.com
+RewriteCond %{HTTP_HOST} ^(www\.)?bricpoint\.com 
 RewriteRule ^(.*)$ https://www.bricpoint.com/$1 [R,L]
